@@ -1,0 +1,39 @@
+
+.containerimg {
+    width: 130px;
+    height: 100px;
+    overflow: hidden;
+    margin: 3px;
+    position: relative;
+}
+.containerimg > .crop {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+
+.containermarq {
+    width: 195px;
+    height: 150px;
+    overflow: hidden;
+    margin: 3px;
+    position: relative;
+}
+.containermarq > .crop {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
